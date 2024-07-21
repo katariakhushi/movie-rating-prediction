@@ -25,24 +25,10 @@ You can install these libraries using pip:
 The exploratory data analysis (EDA) includes:
 
 Visualization of user age distribution.
-Analysis of user ratings.
-Visualization of the viewership of movies by age group.
-Identification of top movies by viewership rating.
+*Analysis of user ratings.
+*Visualization of the viewership of movies by age group.
+*Identification of top movies by viewership rating.
 
-# Load datasets
-df_movie = pd.read_csv('movies.csv', sep='::', engine='python')
-df_rating = pd.read_csv('ratings.csv', sep='::', engine='python')
-df_user = pd.read_csv('users.csv', sep='::', engine='python')
-
-# Merge datasets
-df = pd.concat([df_movie, df_rating, df_user], axis=1)
-
-# Plot age distribution
-df['Age'].plot.hist(bins=25)
-plt.title("Distribution of Users' Ages")
-plt.xlabel('Age')
-plt.ylabel('Count of Users')
-plt.show()
 Machine Learning Models
 The following machine learning models are evaluated:
 
