@@ -1,6 +1,8 @@
 # Movie-Rating-Prediction
+## Overview
+This project provides a detailed exploration and machine learning application on the datasets provided. By analyzing user demographics and their movie ratings, we aim to understand the underlying patterns and build predictive models. The goal is to predict movie ratings based on user attributes and movie information using various machine learning algorithms.
 ## Introduction
-The MovieLens dataset is widely used for movie recommendation systems and contains data on movies, users, and their ratings. This project performs an in-depth analysis of this dataset and implements multiple machine learning models to predict movie ratings based on various features.
+It  is widely used for movie recommendation systems and contains data on movies, users, and their ratings. This project performs an in-depth analysis of this dataset and implements multiple machine learning models to predict movie ratings based on various features.
 
 ### Dataset
 The dataset consists of three CSV files:
