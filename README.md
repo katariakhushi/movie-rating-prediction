@@ -23,13 +23,13 @@ You can install these libraries using pip:
 
 ## Exploratory Data Analysis
 The exploratory data analysis (EDA) includes:
-
-Visualization of user age distribution.
-*Analysis of user ratings.
-*Visualization of the viewership of movies by age group.
-*Identification of top movies by viewership rating.
-
-Machine Learning Models
+***
+1.Visualization of user age distribution.
+2.Analysis of user ratings.
+3.Visualization of the viewership of movies by age group.
+4.Identification of top movies by viewership rating.
+***
+## Machine Learning Models
 The following machine learning models are evaluated:
 
 Logistic Regression
